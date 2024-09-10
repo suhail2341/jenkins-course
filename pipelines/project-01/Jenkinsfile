@@ -69,7 +69,7 @@ pipeline {
     post {
         always {
             script {
-                trivyNotification('trivy-report.html', 'aswin@crunchops.com')
+                trivyNotification('trivy-report.html', 'aswin@crunchop.com')
             }
         }
     }
